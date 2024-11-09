@@ -1,201 +1,663 @@
-﻿Workload,Operation
-AzureActiveDirectory,"Update device."
-AzureActiveDirectory,"Add member to group."
-AzureActiveDirectory,"Update StsRefreshTokenValidFrom Timestamp."
-AzureActiveDirectory,"Remove service principal."
-AzureActiveDirectory,"Delete application."
-AzureActiveDirectory,"Add label."
-AzureActiveDirectory,"Delete user."
-AzureActiveDirectory,"Remove member from role."
-AzureActiveDirectory,"Add user."
-AzureActiveDirectory,"Add member to role."
-AzureActiveDirectory,"Remove service principal credentials."
-AzureActiveDirectory,"Add service principal credentials."
-AzureActiveDirectory,"Add app role assignment grant to user."
-AzureActiveDirectory,"Update application – Certificates and secrets management "
-AzureActiveDirectory,"Add application."
-AzureActiveDirectory,"Update application."
-AzureActiveDirectory,"Add app role assignment to service principal."
-AzureActiveDirectory,"Remove delegated permission grant."
-AzureActiveDirectory,"Consent to application."
-AzureActiveDirectory,"Set Company Information."
-AzureActiveDirectory,"Add service principal."
-AzureActiveDirectory,"Update company"
-AzureActiveDirectory,"Update user."
-AzureActiveDirectory,"Reset user password."
-AzureActiveDirectory,UserLoginFailed
-AzureActiveDirectory,UserLoggedIn
-AzureActiveDirectory,"Change user license."
-AzureActiveDirectory,"Add policy."
-AzureActiveDirectory,"Update label."
-AzureActiveDirectory,"Add delegated permission grant."
-AzureActiveDirectory,"Update service principal."
-AzureActiveDirectory,"Remove owner from group."
-AzureActiveDirectory,"Remove member from group."
-AzureActiveDirectory,"Delete group."
-AzureActiveDirectory,"Update group."
-AzureActiveDirectory,"Add owner to group."
-AzureActiveDirectory,"Add group."
-CompliancePostureManagement,MDCAssessments
-CompliancePostureManagement,MDCRegulatoryComplianceAssessments
-Copilot,CopilotInteraction
-Exchange,"Set-AdminAuditLogConfig"
-Exchange,GATFRTokenIssue
-Exchange,HardDelete
-Exchange,"Add-MailboxPermission"
-Exchange,AddFolderPermissions
-Exchange,Create
-Exchange,"Install-AdminAuditLogConfig"
-Exchange,MoveToDeletedItems
-Exchange,ModifyFolderPermissions
-Exchange,"Set-TransportConfig"
-Exchange,"New-InboxRule"
-Exchange,"New-UnifiedGroup"
-Exchange,"Set-Mailbox"
-Exchange,SoftDelete
-Exchange,"Install-DataClassificationConfig"
-Exchange,"Install-DefaultSharingPolicy"
-Exchange,"New-ExchangeAssistanceConfig"
-Exchange,MailItemsAccessed
-Exchange,Update
-Exchange,"Set-ExchangeAssistanceConfig"
-Exchange,"Set-RecipientEnforcementProvisioningPolicy"
-Exchange,"Install-ResourceConfig"
-Exchange,"Set-OwaMailboxPolicy"
-Exchange,"Remove-InboxRule"
-Exchange,MipLabel
-Exchange,Send
-Exchange,"Set-MailboxPlan"
-Exchange,"Enable-AddressListPaging"
-Exchange,"Remove-UnifiedGroup"
-Exchange,"Set-TenantObjectVersion"
-Exchange,"New-Mailbox"
-Exchange,"New-FolderMoveRequest"
-Exchange,"Add-MailboxLocation"
-Microsoft365Defender,UpdateIncidentSeverity
-Microsoft365Defender,EditIncidentClassification
-Microsoft365Defender,AddTagsToIncident
-Microsoft365Defender,ChangeCustomDetectionRuleStatus
-Microsoft365Defender,RunCustomDetection
-Microsoft365Defender,UnAssignUserFromIncident
-Microsoft365Defender,AssignUserToIncident
-Microsoft365Defender,UpdateIncidentStatus
-Microsoft365Defender,AddCommentToIncident
-Microsoft365Defender,RemoveTagsFromIncident
-MicrosoftDefenderForEndpoint,EditIndicator
-MicrosoftDefenderForEndpoint,AddIndicator
-MicrosoftDefenderForEndpoint,DownloadOffboardingPkg
-MicrosoftDefenderForEndpoint,CollectInvestigationPackage
-MicrosoftDefenderForEndpoint,DeleteIndicator
-MicrosoftDefenderForEndpoint,SetAdvancedFeatures
-MicrosoftDefenderForEndpoint,DownloadOnboardingPkg
-MicrosoftDefenderForEndpoint,RunAntiVirusScan
-MicrosoftDefenderForIdentity,SensorDeploymentAccessKeyReceived
-MicrosoftDefenderForIdentity,ReportDownloaded
-MicrosoftDefenderForIdentity,TaggingConfigurationUpdated
-MicrosoftDefenderForIdentity,ExclusionConfigurationAdded
-MicrosoftDefenderForIdentity,AlertStatusChanged
-MicrosoftDefenderForIdentity,ReporterConfigurationUpdated
-MicrosoftDefenderForIdentity,ExclusionConfigurationDeleted
-MicrosoftDefenderForIdentity,MonitoringAlertNotificationRecipientAdded
-MicrosoftDefenderForIdentity,SensorDeploymentPackageReceived
-MicrosoftDefenderForIdentity,SensorConfigurationUpdated
-MicrosoftDefenderForIdentity,ApiAuthorization
-MicrosoftDefenderForIdentity,WorkspaceAlertThresholdLevelUpdated
-MicrosoftForms,CreateResponse
-MicrosoftForms,CreateForm
-MicrosoftForms,ViewForm
-MicrosoftForms,ViewRuntimeForm
-MicrosoftForms,ViewResponses
-MicrosoftForms,EditForm
-MicrosoftForms,ListForms
-MicrosoftTeams,TeamsAdminAction
-MicrosoftTeams,MemberAdded
-MicrosoftTeams,WriteUserObjPreference
-MicrosoftTeams,ChannelAdded
-MicrosoftTeams,TeamsSessionStarted
-MicrosoftTeams,TabAdded
-MicrosoftTeams,TeamDeleted
-MicrosoftTeams,AppInstalled
-MicrosoftTeams,TeamSettingChanged
-MicrosoftTeams,ChannelDeleted
-MicrosoftTeams,MessageSent
-MicrosoftTeams,MemberRoleChanged
-MicrosoftTeams,TeamCreated
-Mip,AccessedAggregates
-OneDrive,FileModifiedExtended
-OneDrive,ListItemCreated
-OneDrive,AnonymousLinkCreated
-OneDrive,FileModified
-OneDrive,ListCreated
-OneDrive,FileAccessed
-OneDrive,PageViewedExtended
-OneDrive,AddedToGroup
-OneDrive,PageViewed
-OneDrive,FileUploaded
-OneDrive,ListColumnUpdated
-OneDrive,FilePreviewed
-OneDrive,FileAccessedExtended
-OneDrive,FolderModified
-OneDrive,SharingInheritanceBroken
-OneDrive,SharingLinkCreated
-OneDrive,ListUpdated
-OneDrive,FileSyncDownloadedFull
-OneDrive,FolderCreated
-OneDrive,"Broke sharing inheritance"
-OneDrive,SharingSet
-OneDrive,FileMoved
-OneDrive,ListColumnCreated
-OneDrive,ListViewed
-OneDrive,FileDownloaded
-OneDrive,FileSyncUploadedFull
-Planner,TaskListRead
-PublicEndpoint,SensitivityLabelUpdated
-PublicEndpoint,SensitivityLabelApplied
-SecurityComplianceCenter,Search
-SecurityComplianceCenter,"Get-LabelPolicy"
-SecurityComplianceCenter,"Get-AutoSensitivityLabelRule"
-SecurityComplianceCenter,AuditSearchExportJobCompleted
-SecurityComplianceCenter,"New-Label"
-SecurityComplianceCenter,"Get-DlpSensitiveInformationType"
-SecurityComplianceCenter,AuditSearchCreated
-SecurityComplianceCenter,"Get-Label"
-SecurityComplianceCenter,Validate
-SecurityComplianceCenter,Aggregate
-SecurityComplianceCenter,AuditSearchCompleted
-SecurityComplianceCenter,"New-LabelPolicy"
-SecurityComplianceCenter,"New-AutoSensitivityLabelPolicy"
-SecurityComplianceCenter,AuditSearchExportJobCreated
-SecurityComplianceCenter,"Set-Label"
-SecurityComplianceCenter,"New-AutoSensitivityLabelRule"
-SecurityComplianceCenter,AlertEntityGenerated
-SecurityComplianceCenter,AlertTriggered
-SecurityComplianceCenter,"Get-AutoSensitivityLabelPolicy"
-SecurityComplianceCenter,"Get-QuarantineMessage"
-SecurityComplianceCenter,"Get-DlpComplianceRule"
-SecurityComplianceCenter,"Get-DlpCompliancePolicy"
-SecurityComplianceCenter,"Get-PolicyConfig"
-SecurityComplianceCenter,"Set-LabelPolicy"
-SharePoint,SiteDeleted
-SharePoint,FolderCreated
-SharePoint,ListColumnUpdated
-SharePoint,SiteIBModeSet
-SharePoint,SiteIBModeChanged
-SharePoint,ListCreated
-SharePoint,AddedToGroup
-SharePoint,ListUpdated
-SharePoint,FolderModified
-SharePoint,FileAccessed
-SharePoint,SignInEvent
-SharePoint,PageViewed
-SharePoint,SiteCollectionCreated
-SharePoint,SiteCollectionQuotaModified
-SharePoint,SiteLocksChanged
-SharePoint,ListItemCreated
-URBAC,UpdateRole
-URBAC,DeleteAssignment
-URBAC,CreateAssignment
-URBAC,DeleteRole
-URBAC,CreateRole
-Yammer,ThreadViewed
-Yammer,MessageCreation
+﻿DataSource,Workload,Operation
+"Defender For Cloud Apps",Exchange,MailItemsAccessed
+"Defender For Cloud Apps",Exchange,Send
+"Defender For Cloud Apps",CompliancePostureManagement,MDCRegulatoryComplianceAssessments
+"Defender For Cloud Apps",CompliancePostureManagement,MDCAssessments
+"Defender For Cloud Apps",Exchange,GATFRTokenIssue
+"Defender For Cloud Apps",SecurityComplianceCenter,Search
+"Defender For Cloud Apps",SecurityComplianceCenter,Validate
+"Defender For Cloud Apps",AzureActiveDirectory,"Update user."
+"Defender For Cloud Apps",OneDrive,FileUploaded
+"Defender For Cloud Apps",OneDrive,FileSyncDownloadedFull
+"Defender For Cloud Apps",SharePoint,SignInEvent
+"Defender For Cloud Apps",OneDrive,PageViewed
+"Defender For Cloud Apps",OneDrive,ListViewed
+"Defender For Cloud Apps",SecurityComplianceCenter,"Get-LabelPolicy"
+"Defender For Cloud Apps",SecurityComplianceCenter,"Get-DlpCompliancePolicy"
+"Defender For Cloud Apps",SharePoint,PageViewed
+"Defender For Cloud Apps",OneDrive,FileMoved
+"Defender For Cloud Apps",SecurityComplianceCenter,"Get-AutoSensitivityLabelPolicy"
+"Defender For Cloud Apps",SharePoint,FileAccessed
+"Defender For Cloud Apps",OneDrive,FolderCreated
+"Defender For Cloud Apps",OneDrive,FileAccessed
+"Defender For Cloud Apps",SecurityComplianceCenter,"Get-PolicyConfig"
+"Defender For Cloud Apps",Exchange,Update
+"Defender For Cloud Apps",AzureActiveDirectory,"Add service principal."
+"Defender For Cloud Apps",OneDrive,FilePreviewed
+"Defender For Cloud Apps",Exchange,MoveToDeletedItems
+"Defender For Cloud Apps",OneDrive,FolderModified
+"Defender For Cloud Apps",Copilot,CopilotInteraction
+"Defender For Cloud Apps",Exchange,Create
+"Defender For Cloud Apps",Exchange,HardDelete
+"Defender For Cloud Apps",OneDrive,FileModifiedExtended
+"Defender For Cloud Apps",OneDrive,FileModified
+"Defender For Cloud Apps",OneDrive,FileAccessedExtended
+"Defender For Cloud Apps",OneDrive,ListColumnUpdated
+"Defender For Cloud Apps",OneDrive,ListItemCreated
+"Defender For Cloud Apps",AzureActiveDirectory,"Update service principal."
+"Defender For Cloud Apps",PublicEndpoint,SensitivityLabelApplied
+"Defender For Cloud Apps",Exchange,MipLabel
+"Defender For Cloud Apps",OneDrive,ListColumnCreated
+"Defender For Cloud Apps",OneDrive,ListUpdated
+"Defender For Cloud Apps",OneDrive,FileDownloaded
+"Defender For Cloud Apps",OneDrive,PageViewedExtended
+"Defender For Cloud Apps",AzureActiveDirectory,"Delete user."
+"Defender For Cloud Apps",AzureActiveDirectory,"Set Company Information."
+"Defender For Cloud Apps",AzureActiveDirectory,"Add user."
+"Defender For Cloud Apps",AzureActiveDirectory,"Consent to application."
+"Defender For Cloud Apps",AzureActiveDirectory,"Remove delegated permission grant."
+"Defender For Cloud Apps",AzureActiveDirectory,"Add delegated permission grant."
+"Defender For Cloud Apps",OneDrive,"Broke sharing inheritance"
+"Defender For Cloud Apps",OneDrive,SharingSet
+"Defender For Cloud Apps",OneDrive,AddedToGroup
+"Defender For Cloud Apps",OneDrive,AnonymousLinkCreated
+"Defender For Cloud Apps",AzureActiveDirectory,"Change user license."
+"Defender For Cloud Apps",OneDrive,SharingLinkCreated
+"Defender For Cloud Apps",AzureActiveDirectory,"Add app role assignment to service principal."
+"Defender For Cloud Apps",AzureActiveDirectory,"Update application."
+"Defender For Cloud Apps",AzureActiveDirectory,"Add application."
+"Defender For Cloud Apps",AzureActiveDirectory,"Update application – Certificates and secrets management "
+"Defender For Cloud Apps",AzureActiveDirectory,"Add app role assignment grant to user."
+"Defender For Cloud Apps",AzureActiveDirectory,"Reset user password."
+"Defender For Cloud Apps",AzureActiveDirectory,"Update StsRefreshTokenValidFrom Timestamp."
+"Defender For Cloud Apps",AzureActiveDirectory,"Add service principal credentials."
+"Defender For Cloud Apps",AzureActiveDirectory,"Remove service principal credentials."
+"Defender For Cloud Apps",MicrosoftDefenderForEndpoint,RunAntiVirusScan
+"Defender For Cloud Apps",AzureActiveDirectory,"Add member to role."
+"Defender For Cloud Apps",Microsoft365Defender,UnAssignUserFromIncident
+"Defender For Cloud Apps",Microsoft365Defender,RemoveTagsFromIncident
+"Defender For Cloud Apps",Microsoft365Defender,AddCommentToIncident
+"Defender For Cloud Apps",Mip,AccessedAggregates
+"Defender For Cloud Apps",SecurityComplianceCenter,"Get-Label"
+"Defender For Cloud Apps",SecurityComplianceCenter,"Get-DlpSensitiveInformationType"
+"Defender For Cloud Apps",AzureActiveDirectory,"Remove member from role."
+"Defender For Cloud Apps",Exchange,"New-Mailbox"
+"Defender For Cloud Apps",Microsoft365Defender,UpdateIncidentSeverity
+"Defender For Cloud Apps",Microsoft365Defender,UpdateIncidentStatus
+"Defender For Cloud Apps",Microsoft365Defender,EditIncidentClassification
+"Defender For Cloud Apps",MicrosoftDefenderForIdentity,AlertStatusChanged
+"Defender For Cloud Apps",AzureActiveDirectory,"Delete application."
+"Defender For Cloud Apps",AzureActiveDirectory,"Remove service principal."
+"Defender For Cloud Apps",AzureActiveDirectory,"Add member to group."
+"Defender For Cloud Apps",AzureActiveDirectory,"Update device."
+"Defender For Cloud Apps",MicrosoftForms,EditForm
+"Defender For Cloud Apps",MicrosoftForms,ListForms
+"Defender For Cloud Apps",MicrosoftDefenderForEndpoint,SetAdvancedFeatures
+"Defender For Cloud Apps",SecurityComplianceCenter,"Get-QuarantineMessage"
+"Defender For Cloud Apps",SharePoint,AddedToGroup
+"Defender For Cloud Apps",SharePoint,ListColumnUpdated
+"Defender For Cloud Apps",SharePoint,SiteCollectionCreated
+"Defender For Cloud Apps",SecurityComplianceCenter,Aggregate
+"Defender For Cloud Apps",SharePoint,ListCreated
+"Defender For Cloud Apps",SharePoint,FolderModified
+"Defender For Cloud Apps",SharePoint,ListItemCreated
+"Defender For Cloud Apps",SharePoint,ListUpdated
+"Defender For Cloud Apps",MicrosoftForms,ViewRuntimeForm
+"Defender For Cloud Apps",MicrosoftForms,ViewResponses
+"Defender For Cloud Apps",MicrosoftDefenderForEndpoint,EditIndicator
+"Defender For Cloud Apps",MicrosoftTeams,MessageSent
+"Defender For Cloud Apps",URBAC,UpdateRole
+"Defender For Cloud Apps",MicrosoftTeams,MemberRoleChanged
+"Defender For Cloud Apps",MicrosoftForms,ViewForm
+"Defender For Cloud Apps",MicrosoftForms,CreateForm
+"Defender For Cloud Apps",Exchange,"Add-MailboxLocation"
+"Defender For Cloud Apps",MicrosoftDefenderForIdentity,ExclusionConfigurationDeleted
+"Defender For Cloud Apps",URBAC,CreateRole
+"Defender For Cloud Apps",Exchange,AddFolderPermissions
+"Defender For Cloud Apps",Exchange,ModifyFolderPermissions
+"Defender For Cloud Apps",Microsoft365Defender,AddTagsToIncident
+"Defender For Cloud Apps",MicrosoftTeams,MemberAdded
+"Defender For Cloud Apps",Yammer,MessageCreation
+"Defender For Cloud Apps",MicrosoftDefenderForIdentity,ReporterConfigurationUpdated
+"Defender For Cloud Apps",MicrosoftTeams,ChannelDeleted
+"Defender For Cloud Apps",Planner,TaskListRead
+"Defender For Cloud Apps",AzureActiveDirectory,"Delete group."
+"Defender For Cloud Apps",MicrosoftTeams,TabAdded
+"Defender For Cloud Apps",AzureActiveDirectory,"Add group."
+"Defender For Cloud Apps",MicrosoftForms,CreateResponse
+"Defender For Cloud Apps",MicrosoftTeams,TeamSettingChanged
+"Defender For Cloud Apps",Exchange,"Remove-UnifiedGroup"
+"Defender For Cloud Apps",URBAC,DeleteRole
+"Defender For Cloud Apps",Exchange,"New-FolderMoveRequest"
+"Defender For Cloud Apps",Microsoft365Defender,ChangeCustomDetectionRuleStatus
+"Defender For Cloud Apps",MicrosoftTeams,TeamCreated
+"Defender For Cloud Apps",Exchange,"New-UnifiedGroup"
+"Defender For Cloud Apps",AzureActiveDirectory,"Add owner to group."
+"Defender For Cloud Apps",URBAC,CreateAssignment
+"Defender For Cloud Apps",MicrosoftTeams,TeamDeleted
+"Defender For Cloud Apps",MicrosoftDefenderForIdentity,SensorDeploymentAccessKeyReceived
+"Defender For Cloud Apps",AzureActiveDirectory,"Update group."
+"Defender For Cloud Apps",Yammer,ThreadViewed
+"Defender For Cloud Apps",Microsoft365Defender,AssignUserToIncident
+"Defender For Cloud Apps",MicrosoftDefenderForEndpoint,AddIndicator
+"Defender For Cloud Apps",MicrosoftDefenderForIdentity,TaggingConfigurationUpdated
+"Defender For Cloud Apps",MicrosoftDefenderForIdentity,WorkspaceAlertThresholdLevelUpdated
+"Defender For Cloud Apps",MicrosoftTeams,ChannelAdded
+"Defender For Cloud Apps",MicrosoftDefenderForIdentity,ExclusionConfigurationAdded
+"Defender For Cloud Apps",SharePoint,FolderCreated
+"Defender For Cloud Apps",MicrosoftTeams,AppInstalled
+"Defender For Cloud Apps",MicrosoftDefenderForIdentity,ApiAuthorization
+"Defender For Cloud Apps",SharePoint,SiteCollectionQuotaModified
+"Defender For Cloud Apps",MicrosoftDefenderForIdentity,SensorConfigurationUpdated
+"Defender For Cloud Apps",AzureActiveDirectory,"Remove member from group."
+"Defender For Cloud Apps",Microsoft365Defender,RunCustomDetection
+"Defender For Cloud Apps",Exchange,"Set-Mailbox"
+"Defender For Cloud Apps",MicrosoftDefenderForEndpoint,DownloadOnboardingPkg
+"Defender For Cloud Apps",MicrosoftDefenderForIdentity,SensorDeploymentPackageReceived
+"Defender For Cloud Apps",MicrosoftDefenderForIdentity,ReportDownloaded
+"Defender For Cloud Apps",URBAC,DeleteAssignment
+"Defender For Cloud Apps",AzureActiveDirectory,"Remove owner from group."
+"Defender For Cloud Apps",MicrosoftDefenderForIdentity,MonitoringAlertNotificationRecipientAdded
+"Defender For Cloud Apps",MicrosoftDefenderForEndpoint,CollectInvestigationPackage
+"Defender For Cloud Apps",MicrosoftDefenderForEndpoint,DownloadOffboardingPkg
+"Defender For Cloud Apps",MicrosoftDefenderForEndpoint,DeleteIndicator
+"Defender For Cloud Apps",OneDrive,FileSyncUploadedFull
+"Defender For Cloud Apps",SecurityComplianceCenter,AuditSearchCreated
+"Defender For Cloud Apps",MicrosoftTeams,WriteUserObjPreference
+"Defender For Cloud Apps",MicrosoftTeams,TeamsAdminAction
+"Defender For Cloud Apps",SecurityComplianceCenter,"Get-DlpComplianceRule"
+"Defender For Cloud Apps",SecurityComplianceCenter,AuditSearchCompleted
+"Defender For Cloud Apps",SecurityComplianceCenter,"Get-AutoSensitivityLabelRule"
+"Defender For Cloud Apps",SecurityComplianceCenter,AuditSearchExportJobCreated
+"Defender For Cloud Apps",SharePoint,SiteIBModeSet
+"Defender For Cloud Apps",SecurityComplianceCenter,AuditSearchExportJobCompleted
+"Defender For Cloud Apps",OneDrive,ListCreated
+"Defender For Cloud Apps",AzureActiveDirectory,"Update company"
+"Defender For Cloud Apps",Exchange,"New-InboxRule"
+"Defender For Cloud Apps",PublicEndpoint,SensitivityLabelUpdated
+"Defender For Cloud Apps",Exchange,SoftDelete
+"Defender For Cloud Apps",SecurityComplianceCenter,"New-Label"
+"Defender For Cloud Apps",SecurityComplianceCenter,"New-LabelPolicy"
+"Defender For Cloud Apps",SecurityComplianceCenter,"New-AutoSensitivityLabelPolicy"
+"Defender For Cloud Apps",SecurityComplianceCenter,"New-AutoSensitivityLabelRule"
+"Defender For Cloud Apps",SecurityComplianceCenter,"Set-LabelPolicy"
+"Defender For Cloud Apps",SecurityComplianceCenter,"Set-Label"
+"Defender For Cloud Apps",Exchange,"Remove-InboxRule"
+"Defender For Cloud Apps",SecurityComplianceCenter,AlertTriggered
+"Defender For Cloud Apps",AzureActiveDirectory,"Add label."
+"Defender For Cloud Apps",AzureActiveDirectory,"Update label."
+"Defender For Cloud Apps",AzureActiveDirectory,"Add policy."
+"Defender For Cloud Apps",SecurityComplianceCenter,AlertEntityGenerated
+"Sentinel OfficeActivity",Exchange,MailItemsAccessed
+"Sentinel OfficeActivity",Exchange,Send
+"Sentinel OfficeActivity",Exchange,GATFRTokenIssue
+"Sentinel OfficeActivity",Exchange,"Set-MailboxPlan"
+"Sentinel OfficeActivity",Exchange,"Set-Mailbox"
+"Sentinel OfficeActivity",Exchange,MipLabel
+"Sentinel OfficeActivity",Exchange,HardDelete
+"Sentinel OfficeActivity",Exchange,"Set-TransportConfig"
+"Sentinel OfficeActivity",Exchange,MoveToDeletedItems
+"Sentinel OfficeActivity",Exchange,"Remove-InboxRule"
+"Sentinel OfficeActivity",Exchange,SoftDelete
+"Sentinel OfficeActivity",Exchange,Create
+"Sentinel OfficeActivity",Exchange,"Set-ExchangeAssistanceConfig"
+"Sentinel OfficeActivity",Exchange,"Set-AdminAuditLogConfig"
+"Sentinel OfficeActivity",Exchange,"Set-TenantObjectVersion"
+"Sentinel OfficeActivity",Exchange,"Install-DefaultSharingPolicy"
+"Sentinel OfficeActivity",Exchange,"New-ExchangeAssistanceConfig"
+"Sentinel OfficeActivity",Exchange,"Install-AdminAuditLogConfig"
+"Sentinel OfficeActivity",Exchange,"Set-RecipientEnforcementProvisioningPolicy"
+"Sentinel OfficeActivity",Exchange,"Set-OwaMailboxPolicy"
+"Sentinel OfficeActivity",Exchange,"Install-DataClassificationConfig"
+"Sentinel OfficeActivity",Exchange,"Install-ResourceConfig"
+"Sentinel OfficeActivity",Exchange,"Add-MailboxPermission"
+"Sentinel OfficeActivity",Exchange,"Enable-AddressListPaging"
+"Sentinel OfficeActivity",Exchange,"New-InboxRule"
+"Sentinel OfficeActivity",OneDrive,PageViewed
+"Sentinel OfficeActivity",OneDrive,FileDownloaded
+"Sentinel OfficeActivity",OneDrive,FileUploaded
+"Sentinel OfficeActivity",OneDrive,FileModifiedExtended
+"Sentinel OfficeActivity",OneDrive,FileAccessed
+"Sentinel OfficeActivity",OneDrive,FileAccessedExtended
+"Sentinel OfficeActivity",OneDrive,FileModified
+"Sentinel OfficeActivity",OneDrive,ListViewed
+"Sentinel OfficeActivity",OneDrive,PageViewedExtended
+"Sentinel OfficeActivity",OneDrive,ListColumnCreated
+"Sentinel OfficeActivity",OneDrive,FilePreviewed
+"Sentinel OfficeActivity",OneDrive,SharingSet
+"Sentinel OfficeActivity",OneDrive,FolderCreated
+"Sentinel OfficeActivity",OneDrive,AddedToGroup
+"Sentinel OfficeActivity",OneDrive,SharingLinkCreated
+"Sentinel OfficeActivity",OneDrive,ListUpdated
+"Sentinel OfficeActivity",OneDrive,AnonymousLinkCreated
+"Sentinel OfficeActivity",OneDrive,SharingInheritanceBroken
+"Sentinel OfficeActivity",OneDrive,FolderModified
+"Sentinel OfficeActivity",SharePoint,FileAccessed
+"Sentinel OfficeActivity",SharePoint,PageViewed
+"Sentinel OfficeActivity",SharePoint,SignInEvent
+"Sentinel OfficeActivity",MicrosoftTeams,TeamsSessionStarted
+"Sentinel OfficeActivity",OneDrive,FileSyncDownloadedFull
+"Sentinel OfficeActivity",OneDrive,FileMoved
+"Sentinel OfficeActivity",Exchange,Update
+"Sentinel OfficeActivity",OneDrive,ListColumnUpdated
+"Sentinel OfficeActivity",OneDrive,ListItemCreated
+"Sentinel OfficeActivity",Exchange,"Add-MailboxLocation"
+"Sentinel OfficeActivity",Exchange,ModifyFolderPermissions
+"Sentinel OfficeActivity",Exchange,"New-FolderMoveRequest"
+"Sentinel OfficeActivity",Exchange,"New-Mailbox"
+"Sentinel OfficeActivity",Exchange,AddFolderPermissions
+"Sentinel OfficeActivity",Exchange,"New-UnifiedGroup"
+"Sentinel OfficeActivity",Exchange,"Remove-UnifiedGroup"
+"Sentinel OfficeActivity",SharePoint,AddedToGroup
+"Sentinel OfficeActivity",SharePoint,ListColumnUpdated
+"Sentinel OfficeActivity",SharePoint,FolderModified
+"Sentinel OfficeActivity",SharePoint,ListItemCreated
+"Sentinel OfficeActivity",SharePoint,FolderCreated
+"Sentinel OfficeActivity",SharePoint,ListCreated
+"Sentinel OfficeActivity",SharePoint,SiteCollectionQuotaModified
+"Sentinel OfficeActivity",SharePoint,ListUpdated
+"Sentinel OfficeActivity",SharePoint,SiteDeleted
+"Sentinel OfficeActivity",SharePoint,SiteIBModeSet
+"Sentinel OfficeActivity",SharePoint,SiteLocksChanged
+"Sentinel OfficeActivity",SharePoint,SiteCollectionCreated
+"Sentinel OfficeActivity",MicrosoftTeams,MemberAdded
+"Sentinel OfficeActivity",MicrosoftTeams,MessageSent
+"Sentinel OfficeActivity",MicrosoftTeams,TabAdded
+"Sentinel OfficeActivity",MicrosoftTeams,TeamSettingChanged
+"Sentinel OfficeActivity",MicrosoftTeams,TeamCreated
+"Sentinel OfficeActivity",MicrosoftTeams,MemberRoleChanged
+"Sentinel OfficeActivity",MicrosoftTeams,ChannelAdded
+"Sentinel OfficeActivity",MicrosoftTeams,ChannelDeleted
+"Sentinel OfficeActivity",MicrosoftTeams,TeamDeleted
+"Sentinel OfficeActivity",MicrosoftTeams,AppInstalled
+"Sentinel OfficeActivity",OneDrive,FileSyncUploadedFull
+"Sentinel OfficeActivity",OneDrive,ListCreated
+"Sentinel OfficeActivity",SharePoint,SiteIBModeChanged
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"Get-AutoSensitivityLabelPolicy"
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"Get-LabelPolicy"
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"Get-PolicyConfig"
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"Get-DlpCompliancePolicy"
+"ExtractorSuite_InvictusIR",CompliancePostureManagement,MDCAssessments
+"ExtractorSuite_InvictusIR",Exchange,MailItemsAccessed
+"ExtractorSuite_InvictusIR",Exchange,Send
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,Search
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,Validate
+"ExtractorSuite_InvictusIR",Exchange,GATFRTokenIssue
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,UserLoggedIn
+"ExtractorSuite_InvictusIR",Microsoft365Defender,UnAssignUserFromIncident
+"ExtractorSuite_InvictusIR",Microsoft365Defender,RemoveTagsFromIncident
+"ExtractorSuite_InvictusIR",Microsoft365Defender,AddCommentToIncident
+"ExtractorSuite_InvictusIR",Copilot,CopilotInteraction
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,UserLoginFailed
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Reset user password."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Update user."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Delete user."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Update StsRefreshTokenValidFrom Timestamp."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Add user."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Change user license."
+"ExtractorSuite_InvictusIR",Exchange,MoveToDeletedItems
+"ExtractorSuite_InvictusIR",CompliancePostureManagement,MDCRegulatoryComplianceAssessments
+"ExtractorSuite_InvictusIR",OneDrive,FileAccessed
+"ExtractorSuite_InvictusIR",Exchange,"New-FolderMoveRequest"
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Delete group."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Update group."
+"ExtractorSuite_InvictusIR",Exchange,"Add-MailboxLocation"
+"ExtractorSuite_InvictusIR",Exchange,"New-Mailbox"
+"ExtractorSuite_InvictusIR",Planner,TaskListRead
+"ExtractorSuite_InvictusIR",OneDrive,FileModified
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForIdentity,WorkspaceAlertThresholdLevelUpdated
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForIdentity,ExclusionConfigurationDeleted
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForIdentity,SensorDeploymentPackageReceived
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForIdentity,TaggingConfigurationUpdated
+"ExtractorSuite_InvictusIR",Microsoft365Defender,ChangeCustomDetectionRuleStatus
+"ExtractorSuite_InvictusIR",Microsoft365Defender,RunCustomDetection
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForEndpoint,AddIndicator
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForEndpoint,EditIndicator
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForEndpoint,DeleteIndicator
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForIdentity,SensorDeploymentAccessKeyReceived
+"ExtractorSuite_InvictusIR",URBAC,CreateAssignment
+"ExtractorSuite_InvictusIR",URBAC,CreateRole
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForEndpoint,CollectInvestigationPackage
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForEndpoint,RunAntiVirusScan
+"ExtractorSuite_InvictusIR",URBAC,DeleteAssignment
+"ExtractorSuite_InvictusIR",URBAC,DeleteRole
+"ExtractorSuite_InvictusIR",URBAC,UpdateRole
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForEndpoint,DownloadOnboardingPkg
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForEndpoint,SetAdvancedFeatures
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Consent to application."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Add app role assignment grant to user."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Add delegated permission grant."
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForEndpoint,DownloadOffboardingPkg
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Remove member from group."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Add group."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Add member to group."
+"ExtractorSuite_InvictusIR",SharePoint,SiteDeleted
+"ExtractorSuite_InvictusIR",SharePoint,ListCreated
+"ExtractorSuite_InvictusIR",SharePoint,PageViewed
+"ExtractorSuite_InvictusIR",SharePoint,SignInEvent
+"ExtractorSuite_InvictusIR",SharePoint,FolderModified
+"ExtractorSuite_InvictusIR",SharePoint,SiteIBModeSet
+"ExtractorSuite_InvictusIR",SharePoint,SiteLocksChanged
+"ExtractorSuite_InvictusIR",SharePoint,AddedToGroup
+"ExtractorSuite_InvictusIR",SharePoint,SiteCollectionCreated
+"ExtractorSuite_InvictusIR",SharePoint,SiteCollectionQuotaModified
+"ExtractorSuite_InvictusIR",SharePoint,ListColumnUpdated
+"ExtractorSuite_InvictusIR",SharePoint,ListItemCreated
+"ExtractorSuite_InvictusIR",SharePoint,FolderCreated
+"ExtractorSuite_InvictusIR",SharePoint,ListUpdated
+"ExtractorSuite_InvictusIR",OneDrive,PageViewed
+"ExtractorSuite_InvictusIR",OneDrive,FileUploaded
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"Get-QuarantineMessage"
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,Aggregate
+"ExtractorSuite_InvictusIR",Exchange,"Set-Mailbox"
+"ExtractorSuite_InvictusIR",MicrosoftTeams,TeamDeleted
+"ExtractorSuite_InvictusIR",Yammer,MessageCreation
+"ExtractorSuite_InvictusIR",Yammer,ThreadViewed
+"ExtractorSuite_InvictusIR",MicrosoftTeams,ChannelDeleted
+"ExtractorSuite_InvictusIR",MicrosoftTeams,MessageSent
+"ExtractorSuite_InvictusIR",MicrosoftTeams,MemberRoleChanged
+"ExtractorSuite_InvictusIR",MicrosoftTeams,TeamSettingChanged
+"ExtractorSuite_InvictusIR",MicrosoftTeams,MemberAdded
+"ExtractorSuite_InvictusIR",MicrosoftTeams,TabAdded
+"ExtractorSuite_InvictusIR",MicrosoftTeams,TeamCreated
+"ExtractorSuite_InvictusIR",MicrosoftTeams,AppInstalled
+"ExtractorSuite_InvictusIR",MicrosoftTeams,ChannelAdded
+"ExtractorSuite_InvictusIR",MicrosoftTeams,TeamsSessionStarted
+"ExtractorSuite_InvictusIR",MicrosoftForms,ListForms
+"ExtractorSuite_InvictusIR",MicrosoftForms,ViewForm
+"ExtractorSuite_InvictusIR",MicrosoftForms,CreateResponse
+"ExtractorSuite_InvictusIR",MicrosoftForms,ViewResponses
+"ExtractorSuite_InvictusIR",MicrosoftForms,ViewRuntimeForm
+"ExtractorSuite_InvictusIR",MicrosoftForms,EditForm
+"ExtractorSuite_InvictusIR",MicrosoftForms,CreateForm
+"ExtractorSuite_InvictusIR",Microsoft365Defender,UpdateIncidentSeverity
+"ExtractorSuite_InvictusIR",Microsoft365Defender,UpdateIncidentStatus
+"ExtractorSuite_InvictusIR",Microsoft365Defender,EditIncidentClassification
+"ExtractorSuite_InvictusIR",Microsoft365Defender,AddTagsToIncident
+"ExtractorSuite_InvictusIR",Microsoft365Defender,AssignUserToIncident
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForIdentity,SensorConfigurationUpdated
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForIdentity,ReporterConfigurationUpdated
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForIdentity,ExclusionConfigurationAdded
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForIdentity,ReportDownloaded
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForIdentity,ApiAuthorization
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForIdentity,MonitoringAlertNotificationRecipientAdded
+"ExtractorSuite_InvictusIR",Exchange,"Set-AdminAuditLogConfig"
+"ExtractorSuite_InvictusIR",Exchange,"Set-RecipientEnforcementProvisioningPolicy"
+"ExtractorSuite_InvictusIR",Exchange,"Add-MailboxPermission"
+"ExtractorSuite_InvictusIR",Exchange,"Set-MailboxPlan"
+"ExtractorSuite_InvictusIR",Exchange,"Set-OwaMailboxPolicy"
+"ExtractorSuite_InvictusIR",Exchange,"Set-ExchangeAssistanceConfig"
+"ExtractorSuite_InvictusIR",Exchange,"Set-TenantObjectVersion"
+"ExtractorSuite_InvictusIR",Exchange,"Set-TransportConfig"
+"ExtractorSuite_InvictusIR",Exchange,"New-ExchangeAssistanceConfig"
+"ExtractorSuite_InvictusIR",Exchange,"Install-DataClassificationConfig"
+"ExtractorSuite_InvictusIR",Exchange,"Enable-AddressListPaging"
+"ExtractorSuite_InvictusIR",Exchange,"Install-AdminAuditLogConfig"
+"ExtractorSuite_InvictusIR",Exchange,"Install-DefaultSharingPolicy"
+"ExtractorSuite_InvictusIR",OneDrive,FileAccessedExtended
+"ExtractorSuite_InvictusIR",OneDrive,FileModifiedExtended
+"ExtractorSuite_InvictusIR",Exchange,"Install-ResourceConfig"
+"ExtractorSuite_InvictusIR",Exchange,Create
+"ExtractorSuite_InvictusIR",Exchange,HardDelete
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Add service principal."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Update service principal."
+"ExtractorSuite_InvictusIR",OneDrive,SharingInheritanceBroken
+"ExtractorSuite_InvictusIR",OneDrive,FilePreviewed
+"ExtractorSuite_InvictusIR",OneDrive,ListViewed
+"ExtractorSuite_InvictusIR",Exchange,"Remove-UnifiedGroup"
+"ExtractorSuite_InvictusIR",Exchange,"New-UnifiedGroup"
+"ExtractorSuite_InvictusIR",Exchange,ModifyFolderPermissions
+"ExtractorSuite_InvictusIR",Exchange,AddFolderPermissions
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Update device."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Add owner to group."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Remove owner from group."
+"ExtractorSuite_InvictusIR",OneDrive,FileDownloaded
+"ExtractorSuite_InvictusIR",OneDrive,ListColumnUpdated
+"ExtractorSuite_InvictusIR",OneDrive,ListItemCreated
+"ExtractorSuite_InvictusIR",OneDrive,FolderCreated
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"Get-Label"
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"Get-DlpSensitiveInformationType"
+"ExtractorSuite_InvictusIR",Mip,AccessedAggregates
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Add member to role."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Remove delegated permission grant."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Add app role assignment to service principal."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Update application."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Update application – Certificates and secrets management "
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Add application."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Set Company Information."
+"ExtractorSuite_InvictusIR",OneDrive,PageViewedExtended
+"ExtractorSuite_InvictusIR",OneDrive,ListUpdated
+"ExtractorSuite_InvictusIR",OneDrive,ListColumnCreated
+"ExtractorSuite_InvictusIR",OneDrive,AnonymousLinkCreated
+"ExtractorSuite_InvictusIR",OneDrive,SharingLinkCreated
+"ExtractorSuite_InvictusIR",OneDrive,SharingSet
+"ExtractorSuite_InvictusIR",OneDrive,AddedToGroup
+"ExtractorSuite_InvictusIR",OneDrive,FolderModified
+"ExtractorSuite_InvictusIR",SharePoint,FileAccessed
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Add service principal credentials."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Remove service principal credentials."
+"ExtractorSuite_InvictusIR",PublicEndpoint,SensitivityLabelApplied
+"ExtractorSuite_InvictusIR",Exchange,MipLabel
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Remove member from role."
+"ExtractorSuite_InvictusIR",Exchange,SoftDelete
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Add policy."
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,AlertEntityGenerated
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,AlertTriggered
+"ExtractorSuite_InvictusIR",Exchange,"Remove-InboxRule"
+"ExtractorSuite_InvictusIR",Exchange,"New-InboxRule"
+"ExtractorSuite_InvictusIR",PublicEndpoint,SensitivityLabelUpdated
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Add label."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Update label."
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"New-AutoSensitivityLabelPolicy"
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"New-AutoSensitivityLabelRule"
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"Get-AutoSensitivityLabelRule"
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"Set-Label"
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"Set-LabelPolicy"
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"New-Label"
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"New-LabelPolicy"
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,"Get-DlpComplianceRule"
+"ExtractorSuite_InvictusIR",SharePoint,SiteIBModeChanged
+"ExtractorSuite_InvictusIR",MicrosoftTeams,TeamsAdminAction
+"ExtractorSuite_InvictusIR",MicrosoftTeams,WriteUserObjPreference
+"ExtractorSuite_InvictusIR",OneDrive,FileSyncUploadedFull
+"ExtractorSuite_InvictusIR",OneDrive,ListCreated
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,AuditSearchExportJobCompleted
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,AuditSearchExportJobCreated
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,AuditSearchCompleted
+"ExtractorSuite_InvictusIR",SecurityComplianceCenter,AuditSearchCreated
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Update company"
+"ExtractorSuite_InvictusIR",OneDrive,FileSyncDownloadedFull
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Delete application."
+"ExtractorSuite_InvictusIR",AzureActiveDirectory,"Remove service principal."
+"ExtractorSuite_InvictusIR",OneDrive,FileMoved
+"ExtractorSuite_InvictusIR",MicrosoftDefenderForIdentity,AlertStatusChanged
+"ExtractorSuite_InvictusIR",Exchange,Update
+"UAL_Audit_Search",CompliancePostureManagement,MDCRegulatoryComplianceAssessments
+"UAL_Audit_Search",SecurityComplianceCenter,Validate
+"UAL_Audit_Search",Exchange,"Install-AdminAuditLogConfig"
+"UAL_Audit_Search",CompliancePostureManagement,MDCAssessments
+"UAL_Audit_Search",Exchange,MailItemsAccessed
+"UAL_Audit_Search",AzureActiveDirectory,"Add app role assignment to service principal."
+"UAL_Audit_Search",OneDrive,FileModified
+"UAL_Audit_Search",Copilot,CopilotInteraction
+"UAL_Audit_Search",SecurityComplianceCenter,Search
+"UAL_Audit_Search",Exchange,GATFRTokenIssue
+"UAL_Audit_Search",SecurityComplianceCenter,"Get-PolicyConfig"
+"UAL_Audit_Search",Exchange,"Set-Mailbox"
+"UAL_Audit_Search",OneDrive,FileSyncUploadedFull
+"UAL_Audit_Search",AzureActiveDirectory,"Update user."
+"UAL_Audit_Search",AzureActiveDirectory,UserLoggedIn
+"UAL_Audit_Search",Exchange,Send
+"UAL_Audit_Search",AzureActiveDirectory,"Delete user."
+"UAL_Audit_Search",SecurityComplianceCenter,"Get-DlpSensitiveInformationType"
+"UAL_Audit_Search",MicrosoftForms,CreateForm
+"UAL_Audit_Search",AzureActiveDirectory,"Delete group."
+"UAL_Audit_Search",AzureActiveDirectory,"Add delegated permission grant."
+"UAL_Audit_Search",Exchange,"Set-MailboxPlan"
+"UAL_Audit_Search",OneDrive,FileModifiedExtended
+"UAL_Audit_Search",OneDrive,FileAccessed
+"UAL_Audit_Search",SecurityComplianceCenter,"Get-LabelPolicy"
+"UAL_Audit_Search",OneDrive,FolderModified
+"UAL_Audit_Search",AzureActiveDirectory,"Add application."
+"UAL_Audit_Search",MicrosoftDefenderForEndpoint,DownloadOffboardingPkg
+"UAL_Audit_Search",OneDrive,FileAccessedExtended
+"UAL_Audit_Search",OneDrive,FileSyncDownloadedFull
+"UAL_Audit_Search",SecurityComplianceCenter,"Get-AutoSensitivityLabelPolicy"
+"UAL_Audit_Search",Microsoft365Defender,AddCommentToIncident
+"UAL_Audit_Search",MicrosoftForms,EditForm
+"UAL_Audit_Search",Exchange,"Set-ExchangeAssistanceConfig"
+"UAL_Audit_Search",Exchange,MoveToDeletedItems
+"UAL_Audit_Search",AzureActiveDirectory,"Add member to group."
+"UAL_Audit_Search",PublicEndpoint,SensitivityLabelApplied
+"UAL_Audit_Search",SecurityComplianceCenter,"Get-DlpCompliancePolicy"
+"UAL_Audit_Search",SharePoint,AddedToGroup
+"UAL_Audit_Search",OneDrive,FileUploaded
+"UAL_Audit_Search",SharePoint,SignInEvent
+"UAL_Audit_Search",MicrosoftDefenderForEndpoint,SetAdvancedFeatures
+"UAL_Audit_Search",Planner,TaskListRead
+"UAL_Audit_Search",Microsoft365Defender,UnAssignUserFromIncident
+"UAL_Audit_Search",AzureActiveDirectory,UserLoginFailed
+"UAL_Audit_Search",OneDrive,FolderCreated
+"UAL_Audit_Search",Exchange,HardDelete
+"UAL_Audit_Search",MicrosoftTeams,ChannelAdded
+"UAL_Audit_Search",SharePoint,SiteCollectionQuotaModified
+"UAL_Audit_Search",OneDrive,FileDownloaded
+"UAL_Audit_Search",AzureActiveDirectory,"Set Company Information."
+"UAL_Audit_Search",Exchange,"Install-ResourceConfig"
+"UAL_Audit_Search",AzureActiveDirectory,"Remove service principal credentials."
+"UAL_Audit_Search",MicrosoftDefenderForEndpoint,RunAntiVirusScan
+"UAL_Audit_Search",AzureActiveDirectory,"Add service principal."
+"UAL_Audit_Search",Microsoft365Defender,UpdateIncidentStatus
+"UAL_Audit_Search",MicrosoftDefenderForIdentity,ExclusionConfigurationAdded
+"UAL_Audit_Search",Exchange,"Install-DataClassificationConfig"
+"UAL_Audit_Search",MicrosoftForms,ListForms
+"UAL_Audit_Search",AzureActiveDirectory,"Add user."
+"UAL_Audit_Search",MicrosoftTeams,TeamsSessionStarted
+"UAL_Audit_Search",OneDrive,FileMoved
+"UAL_Audit_Search",MicrosoftForms,ViewForm
+"UAL_Audit_Search",Exchange,MipLabel
+"UAL_Audit_Search",Exchange,"Set-RecipientEnforcementProvisioningPolicy"
+"UAL_Audit_Search",OneDrive,ListItemCreated
+"UAL_Audit_Search",Exchange,"Set-OwaMailboxPolicy"
+"UAL_Audit_Search",Exchange,"Set-TenantObjectVersion"
+"UAL_Audit_Search",Exchange,"New-ExchangeAssistanceConfig"
+"UAL_Audit_Search",SharePoint,ListCreated
+"UAL_Audit_Search",Microsoft365Defender,RemoveTagsFromIncident
+"UAL_Audit_Search",Exchange,ModifyFolderPermissions
+"UAL_Audit_Search",Exchange,AddFolderPermissions
+"UAL_Audit_Search",AzureActiveDirectory,"Update company"
+"UAL_Audit_Search",AzureActiveDirectory,"Change user license."
+"UAL_Audit_Search",AzureActiveDirectory,"Update service principal."
+"UAL_Audit_Search",SecurityComplianceCenter,AuditSearchCreated
+"UAL_Audit_Search",OneDrive,SharingInheritanceBroken
+"UAL_Audit_Search",Exchange,"Add-MailboxPermission"
+"UAL_Audit_Search",OneDrive,ListViewed
+"UAL_Audit_Search",OneDrive,PageViewed
+"UAL_Audit_Search",Microsoft365Defender,RunCustomDetection
+"UAL_Audit_Search",Mip,AccessedAggregates
+"UAL_Audit_Search",SecurityComplianceCenter,Aggregate
+"UAL_Audit_Search",SecurityComplianceCenter,"Get-Label"
+"UAL_Audit_Search",AzureActiveDirectory,"Update group."
+"UAL_Audit_Search",SharePoint,ListColumnUpdated
+"UAL_Audit_Search",AzureActiveDirectory,"Update StsRefreshTokenValidFrom Timestamp."
+"UAL_Audit_Search",Exchange,"Add-MailboxLocation"
+"UAL_Audit_Search",AzureActiveDirectory,"Add app role assignment grant to user."
+"UAL_Audit_Search",Microsoft365Defender,EditIncidentClassification
+"UAL_Audit_Search",AzureActiveDirectory,"Remove delegated permission grant."
+"UAL_Audit_Search",Exchange,"Install-DefaultSharingPolicy"
+"UAL_Audit_Search",SharePoint,SiteLocksChanged
+"UAL_Audit_Search",AzureActiveDirectory,"Reset user password."
+"UAL_Audit_Search",AzureActiveDirectory,"Update application."
+"UAL_Audit_Search",OneDrive,FilePreviewed
+"UAL_Audit_Search",SecurityComplianceCenter,"Set-Label"
+"UAL_Audit_Search",OneDrive,PageViewedExtended
+"UAL_Audit_Search",Microsoft365Defender,AssignUserToIncident
+"UAL_Audit_Search",MicrosoftTeams,MemberRoleChanged
+"UAL_Audit_Search",SecurityComplianceCenter,"Get-AutoSensitivityLabelRule"
+"UAL_Audit_Search",Exchange,Create
+"UAL_Audit_Search",MicrosoftDefenderForEndpoint,CollectInvestigationPackage
+"UAL_Audit_Search",AzureActiveDirectory,"Consent to application."
+"UAL_Audit_Search",Exchange,"Set-TransportConfig"
+"UAL_Audit_Search",Exchange,"Enable-AddressListPaging"
+"UAL_Audit_Search",Exchange,"New-FolderMoveRequest"
+"UAL_Audit_Search",SecurityComplianceCenter,"Get-DlpComplianceRule"
+"UAL_Audit_Search",Exchange,"New-Mailbox"
+"UAL_Audit_Search",Microsoft365Defender,UpdateIncidentSeverity
+"UAL_Audit_Search",AzureActiveDirectory,"Add group."
+"UAL_Audit_Search",AzureActiveDirectory,"Add owner to group."
+"UAL_Audit_Search",SharePoint,PageViewed
+"UAL_Audit_Search",SharePoint,SiteIBModeSet
+"UAL_Audit_Search",SecurityComplianceCenter,AuditSearchExportJobCompleted
+"UAL_Audit_Search",SharePoint,ListItemCreated
+"UAL_Audit_Search",MicrosoftDefenderForIdentity,WorkspaceAlertThresholdLevelUpdated
+"UAL_Audit_Search",MicrosoftTeams,MemberAdded
+"UAL_Audit_Search",AzureActiveDirectory,"Add service principal credentials."
+"UAL_Audit_Search",AzureActiveDirectory,"Remove service principal."
+"UAL_Audit_Search",SharePoint,ListUpdated
+"UAL_Audit_Search",OneDrive,SharingSet
+"UAL_Audit_Search",MicrosoftTeams,MessageSent
+"UAL_Audit_Search",MicrosoftTeams,AppInstalled
+"UAL_Audit_Search",Exchange,"Set-AdminAuditLogConfig"
+"UAL_Audit_Search",MicrosoftTeams,TabAdded
+"UAL_Audit_Search",URBAC,CreateAssignment
+"UAL_Audit_Search",AzureActiveDirectory,"Add label."
+"UAL_Audit_Search",MicrosoftTeams,TeamsAdminAction
+"UAL_Audit_Search",SharePoint,FileAccessed
+"UAL_Audit_Search",AzureActiveDirectory,"Add member to role."
+"UAL_Audit_Search",MicrosoftTeams,TeamDeleted
+"UAL_Audit_Search",MicrosoftTeams,TeamSettingChanged
+"UAL_Audit_Search",SharePoint,FolderModified
+"UAL_Audit_Search",AzureActiveDirectory,"Remove member from group."
+"UAL_Audit_Search",MicrosoftDefenderForEndpoint,EditIndicator
+"UAL_Audit_Search",SharePoint,FolderCreated
+"UAL_Audit_Search",AzureActiveDirectory,"Update label."
+"UAL_Audit_Search",MicrosoftDefenderForEndpoint,AddIndicator
+"UAL_Audit_Search",Exchange,"Remove-InboxRule"
+"UAL_Audit_Search",SecurityComplianceCenter,AuditSearchCompleted
+"UAL_Audit_Search",OneDrive,ListColumnCreated
+"UAL_Audit_Search",SecurityComplianceCenter,"New-Label"
+"UAL_Audit_Search",Yammer,ThreadViewed
+"UAL_Audit_Search",URBAC,CreateRole
+"UAL_Audit_Search",SharePoint,SiteIBModeChanged
+"UAL_Audit_Search",SecurityComplianceCenter,AlertTriggered
+"UAL_Audit_Search",Yammer,MessageCreation
+"UAL_Audit_Search",SharePoint,SiteCollectionCreated
+"UAL_Audit_Search",Exchange,SoftDelete
+"UAL_Audit_Search",MicrosoftTeams,WriteUserObjPreference
+"UAL_Audit_Search",SecurityComplianceCenter,"Get-QuarantineMessage"
+"UAL_Audit_Search",OneDrive,ListUpdated
+"UAL_Audit_Search",AzureActiveDirectory,"Delete application."
+"UAL_Audit_Search",MicrosoftDefenderForIdentity,ReportDownloaded
+"UAL_Audit_Search",OneDrive,SharingLinkCreated
+"UAL_Audit_Search",OneDrive,ListColumnUpdated
+"UAL_Audit_Search",AzureActiveDirectory,"Add policy."
+"UAL_Audit_Search",AzureActiveDirectory,"Remove member from role."
+"UAL_Audit_Search",SharePoint,SiteDeleted
+"UAL_Audit_Search",OneDrive,AddedToGroup
+"UAL_Audit_Search",MicrosoftTeams,TeamCreated
+"UAL_Audit_Search",MicrosoftDefenderForIdentity,SensorDeploymentAccessKeyReceived
+"UAL_Audit_Search",AzureActiveDirectory,"Update device."
+"UAL_Audit_Search",SecurityComplianceCenter,"New-AutoSensitivityLabelRule"
+"UAL_Audit_Search",MicrosoftForms,CreateResponse
+"UAL_Audit_Search",OneDrive,AnonymousLinkCreated
+"UAL_Audit_Search",Exchange,"New-UnifiedGroup"
+"UAL_Audit_Search",SecurityComplianceCenter,"New-AutoSensitivityLabelPolicy"
+"UAL_Audit_Search",MicrosoftDefenderForIdentity,MonitoringAlertNotificationRecipientAdded
+"UAL_Audit_Search",OneDrive,ListCreated
+"UAL_Audit_Search",MicrosoftDefenderForIdentity,AlertStatusChanged
+"UAL_Audit_Search",SecurityComplianceCenter,"Set-LabelPolicy"
+"UAL_Audit_Search",SecurityComplianceCenter,"New-LabelPolicy"
+"UAL_Audit_Search",Exchange,Update
+"UAL_Audit_Search",Exchange,"New-InboxRule"
+"UAL_Audit_Search",URBAC,DeleteRole
+"UAL_Audit_Search",MicrosoftDefenderForIdentity,TaggingConfigurationUpdated
+"UAL_Audit_Search",Microsoft365Defender,AddTagsToIncident
+"UAL_Audit_Search",MicrosoftDefenderForIdentity,ApiAuthorization
+"UAL_Audit_Search",SecurityComplianceCenter,AuditSearchExportJobCreated
+"UAL_Audit_Search",MicrosoftDefenderForIdentity,ReporterConfigurationUpdated
+"UAL_Audit_Search",MicrosoftTeams,ChannelDeleted
+"UAL_Audit_Search",AzureActiveDirectory,"Update application – Certificates and secrets management "
+"UAL_Audit_Search",MicrosoftDefenderForIdentity,ExclusionConfigurationDeleted
+"UAL_Audit_Search",MicrosoftForms,ViewResponses
+"UAL_Audit_Search",AzureActiveDirectory,"Remove owner from group."
+"UAL_Audit_Search",Microsoft365Defender,ChangeCustomDetectionRuleStatus
+"UAL_Audit_Search",MicrosoftDefenderForEndpoint,DeleteIndicator
+"UAL_Audit_Search",URBAC,DeleteAssignment
+"UAL_Audit_Search",MicrosoftDefenderForEndpoint,DownloadOnboardingPkg
+"UAL_Audit_Search",MicrosoftDefenderForIdentity,SensorConfigurationUpdated
+"UAL_Audit_Search",MicrosoftDefenderForIdentity,SensorDeploymentPackageReceived
+"UAL_Audit_Search",MicrosoftForms,ViewRuntimeForm
+"UAL_Audit_Search",Exchange,"Remove-UnifiedGroup"
+"UAL_Audit_Search",PublicEndpoint,SensitivityLabelUpdated
+"UAL_Audit_Search",URBAC,UpdateRole
+"UAL_Audit_Search",SecurityComplianceCenter,AlertEntityGenerated
